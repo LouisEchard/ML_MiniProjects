@@ -6,6 +6,7 @@ import numpy as np
 from datetime import datetime
 from enum import Enum
 
+data = json.load(open('feeddata_10.json'))
 
 def getBookContract(aStringNumberContract, aTypeOption):
     aContract = ''
@@ -145,7 +146,7 @@ def residualTotalModACD(params_, pqs_):
 
 
 def main():
-    data = json.load(open('feeddata_10.json'))
+
 
     # parameters:
     alpha0 = 0.0
