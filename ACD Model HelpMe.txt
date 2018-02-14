@@ -1,0 +1,6 @@
+07/02/2018:
+
+Going to fix a few things but still remains to do :
+
+Instead of picking the first expiry that comes (in tick order), get the next expiry in each products.
+                                                
